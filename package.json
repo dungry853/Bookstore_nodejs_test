@@ -1,0 +1,40 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "watch": "node-sass --watch src/resources/scss/ --output public/css/",
+    "beautiful": "prettier --single-quote --trailing-comma all --write 'bookstore/**/*.{js,json,scss}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dungry853/Bookstore_nodejs_test.git"
+  },
+  "keywords": [
+    "f8",
+    "nodejs",
+    "bookstore"
+  ],
+  "author": "Zunxhoof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dungry853/Bookstore_nodejs_test/issues"
+  },
+  "homepage": "https://github.com/dungry853/Bookstore_nodejs_test#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^8.1.1",
+    "node-sass": "^9.0.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.2",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
+}
